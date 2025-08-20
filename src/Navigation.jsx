@@ -83,14 +83,15 @@ function Navigation() {
         </NavItem>
         <NavItem>
           <NavLink to="/miniblog">미니블로그</NavLink>
-          {/* <DropdownMenu>
+          <DropdownMenu>
             <DropdownItem>
               <DropdownLink to="/miniblog/post-write">쓰기</DropdownLink>
             </DropdownItem>
             <DropdownItem>
-              <DropdownLink to="/miniblog/post/:postId">보기</DropdownLink>
+              {/* <DropdownLink to="/miniblog/post/:postId">보기</DropdownLink> */}
+              <DropdownLink to="/miniblog/post/1">1번만 보기</DropdownLink>
             </DropdownItem>
-          </DropdownMenu> */}
+          </DropdownMenu>
         </NavItem>
         <NavItem>
           <NavLink to="/contact">문의하기</NavLink>

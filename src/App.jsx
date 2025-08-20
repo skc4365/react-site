@@ -24,10 +24,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/hook" element={<Hook />} />
           <Route path="/miniblog" element={<MainPage />} />
-          <Route path="/post-write" element={<PostWritePage />} />
-          <Route path="/post/:postId" element={<PostViewPage />} />
-          {/* <Route path="/miniblog/post-write" element={<PostWritePage />} /> */}
-          {/* <Route path="/miniblog/post/:postId" element={<PostViewPage />} /> */}
+          {/* <Route path="/post-write" element={<PostWritePage />} /> */}
+          {/* <Route path="/post/:postId" element={<PostViewPage />} /> */}
+          <Route path="/miniblog/post-write" element={<PostWritePage />} />
+          <Route path="/miniblog/post/:postId" element={<PostViewPage />} />
 
           <Route path="/contact" element={<Contact />} />
         </Routes>
